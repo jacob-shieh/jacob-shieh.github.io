@@ -48,7 +48,7 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>I'm a student at the University of British Columbia, in the Bachelor of Computer Science (BCS) program. As this is a second degree program, I also hold a B.Sc. in Behavioural Neuroscience. With my former knowledge in neuroscience, I can fully appreciate how complex problems are often solved by breaking a problem down to simpler components and solving each separately, much like our brains do. This is the same approach I take when I think about the problems I face when working on complex systems in software design.</p>
+								<p>I'm a student at the University of British Columbia, in the Bachelor of Computer Science (BCS) program. As this is a second degree program, I also hold a B.Sc. in Behavioural Neuroscience. Solving computer science problems is a lot like how our brains work. Complex problems are often solved by breaking it down into simpler components and solving each separately. Then using these small solutions as building blocks to solve a bigger, much more complex problem. </p>
 								<p>I find computer science particularly intriguing because it gives me the ability to create and turn my ideas into a reality.  A few of the projects I'm currently working on can be found outlined <a href="#projects">here</a>.</p>
 							</article>
 
@@ -56,20 +56,20 @@
 							<article id="projects">
 								<h2 class="major">Personal Projects</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<h3 class= "major">ColourFy [Android App]</h3>
+								<h3 class= "major">ColourFy [Java]</h3>
 								<ul>
-									<li>Android app to improve the quality of life for colour blind individuals</li>
-									<li>Take a picture with the camera to identify the colour of everyday objects</li>
-									<li>Will display the colour of the object you touch in the picture</li>
+									<li>Android app that aims to improve the quality of life for colour blind individuals</li>
+									<li>Take a picture with the phone camera to identify the colour of everyday objects</li>
+									<li>Implemented by using the android graphics library and converting the selected pixels on a bitmap image into a string by looking up RGB values on a hashmap and displaying it on the screen</li>
 								</ul>
-								<p> I implemented the colour detection algorithm by converting the bitmap value of the pixels being touched to an RGB value, then look up in a hashtable to find the closest matching colour string. </p> 
-								<h3 class= "major">WalkyTalky [Android App]</h3>
+								<!-- <p> I implemented the colour detection algorithm by converting the bitmap value of the pixels being touched to an RGB value, then look up in a hashtable to find the closest matching colour string. </p>  -->
+								<h3 class= "major">WalkyTalky [Java]</h3>
 								<ul>
-									<li>Platform for custom walking tours for both tourists and locals</li>
-									<li>Allows users to submit personal walking tours for other users to </li>
-									<li>Will display the colour of the object you touch in the picture</li>
+									<li>Android app for custom walking tours for both tourists and locals using Google Maps API, Yelp API, and CockroachDB</li>
+									<li>Implemented front-end of the app by retrieving/parsing JSON files from the server and connecting each point of interest into a route on Google Maps</li>
 								</ul>
-								<h3 class= "major">Instagram Calorie Counter</h3>
+								<h3 class= "major">BussesR'Us [Java]</h3>
+								<li>Implemented an android app for showing bus routes and bus schedules by using an singleton design pattern to manage bus stops and bus routes. Bus information was retrieved by making API calls to the Translink API, then parsed from the retrieved JSON file</li>
 							</article>
 
 						<!-- About -->
